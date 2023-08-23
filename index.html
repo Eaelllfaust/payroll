@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link
+    href="https://api.fontshare.com/v2/css?f[]=satoshi@700,400&f[]=chillax@600,700,400&f[]=clash-display@400,700,500,600&display=swap"
+    rel="stylesheet" />
+
+  <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,700;1,700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="assets/css/payroll.css">
+  <title>Payroll</title>
+  <style>
+  </style>
+</head>
+
+<body>
+  <div class="first">
+    <h1 class="logo">
+      Payroll <sup style="font-size: 16px !important">TM</sup>
+    </h1>
+    <div class="c">
+      <div class="c_v c_v_active">Add employee</div>
+      <a href="payroll.html">
+        <div class="c_v">Manage list</div>
+      </a>
+      <a href="payment.html">
+        <div class="c_v">Payment</div>
+      </a>
+      <a href="records.html">
+        <div class="c_v">Records</div>
+      </a>
+      <a href="data.html">
+        <div class="c_v">Data points</div>
+      </a>
+    </div>
+    <img class="v" src="assets/svg/brand_scribbble.svg" alt="" />
+    <div class="button_1">Logout <i class="bx bx-log-out"></i></div>
+  </div>
+  <div class="second">
+    <div class="top">
+      <div class="navigator">
+        <i class='bx bx-chevron-left'></i>
+        <i class='bx bx-chevron-right'></i>
+      </div>
+      <div class="top_second">
+        <h3 class="name">Kenneth Okpala</h3>
+        <div class="circle"></div>
+      </div>
+    </div>
+    <div class="bottom">
+      <div class="holder">
+        <div class="add_employee">
+          <div class="add">
+            <form action="">
+              <h1>Add employee</h1>
+              <br>
+              <div class="column">
+                <input type="text" placeholder="First name">
+                <input type="text" placeholder="Last name">
+                <input type="text" placeholder="Email address">
+                <input type="text" placeholder="Select role">
+              </div>
+              <div class="btn">Done</div>
+            </form>
+          </div>
+          <div class="log">
+            <h1>Logs</h1>
+            <br>
+            <div class="log_items">
+              <div class="item">
+                ENTRY - Changed employee (Juliet) type (name) to Vivian
+                <br> 15-08-2023
+              </div>
+              <div class="item">
+                ENTRY - Changed employee (Joel) type (email) to joel@gmail.com
+                <br> 15-08-2023
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="money_box">
+        <div class="split">
+          <img class="upscale" src="assets/svg/increase.svg" alt="" />
+          <h2>Book balance</h2>
+        </div>
+        <div class="fund">
+          <span>NGN</span>
+          <span class="fund_1">23,000,000
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+<script src="assets/js/payroll.js"></script>
+
+</html>
